@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ar"dir="rtl">
+<head>
+<meta http-equiv="content-type"content="text/html;charset=windwos-1256"/>
+<style type="text/css">
+a:hover img{
+width: 50px;
+	height: auto;
+
+	}
+
+.الشروط{
+background-color:lightcyan;
+text-align:right;
+overflow:scroll;
+width:85%; 
+height:150px; 
+font-right:10%;
+
+}
+.button{
+background-color:red;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width:85%;
+}
+h3{
+text-decoration:underline;
+text-align:center;
+}
+.friend{
+
+width:50%;
+position:relative;
+border:2px groove;
+right:25%;
+margin:10px;
+padding:10px;
+background-color:white;
+
+}
+
+.body{
+
+	background-image:url(friends.jpg);
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:cover;}
+	p {
+	font-style:bold;
+	}
+.red-star {
+    color: red;
+}
+#you{
+ width:550px; 
+ }
+
+</style>
+</head>
+<title>طلب صداقه</title>
+<body > 
+<div class="body">
+<div class="friend">
+<h3> طلب صداقه</h3>
+<p> للتقديم على طلب صداقه,يرجى تعبئة النموذج التالي و الانتظار لحين النظر الى طلبكم</p>
+ <form action="" method="post">
+ 
+            <p><label>الاسم</label></p>
+              <p><input type="نص" name="الاسم" size="75" placeholder="يمكنك اختيار اي اسم" required><span class="red-star">*</span>
+            </p>
+            <p><label>تاريخ الميلاد</label></p>
+             <p><input type="تاريخ" name="الميلاد" size="75" style="direction: ltr" placeholder="mm/dd/yyyy"  required><span class="red-star">*</span>
+            </p>
+			<p><label>هل أنت:</p>
+			<p><select class="form-control" id="you">
+			<option selected>شخص صباحي</option>
+			<option>شخص مسائي</option>
+			<option>متوفر 24/7</option>
+			<option>نادر التوفر</option>
+			</select>
+			
+			</label></p>
+			<p><strong>هل تحبين البيتزا؟؟</strong></p>
+			<p><label>
+			<input name ="المفضل" type ="radio"
+			value = "نعم">نعم<a><img src="yes.JPG" alt="نعم" width="30" height="20"></a></p>
+			</label>
+			<label>
+			<input name ="المفضل" type ="radio"
+			value = "لا">لا (جواب خطا)<a><img src="no.JPG" alt="لا" width="30"height="20"></a></p>
+			</label>
+			
+		<p>اكتبي شيئآ عن نفسك لا يتجاوز 4 اسطر:</p>
+             <p>  <textarea rows="4" cols="65"></textarea>
+            </p>
+			<h4> الشروط و الأحكام</h4>
+			<div class="الشروط">
+<p>١ - تسألني عن شيء حتى أحدث لك منه ذكرآ </p>
+<p>٢ - يمنع الحديث معي خلال الساعتين الأولى بعد الاستيقاظ</p>
+<p>٣ - لايجوز لك تجاوز حدود الاستخدام العادل للمحتوى</p>
+<p>٤ - المفاجات نشاط غير مقبول البت</p>
+<p>٥ - المحافظه على توازن العلاقه</p>
+<p>٦ - غير مسؤؤله عن اي محادثه تجري بعد منتصف الليل</p></div>
+
+<label>
+			<p><input name ="الموافقه" type ="radio"
+			value = "قبول" required>قبول<span class="red-star">*</span>
+			</p></label>
+			
+			<p><button class="button button1">ارسال الطلب</button><br></p>
+
+			  </form>
+			 
+	</div>	
+</div>	
+</body>
+</html>
